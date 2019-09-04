@@ -1,6 +1,6 @@
 # A simple Excel File for calculate Indicators of compromise
 
-### Method used for calculation
+### Method used for manual calculation
 - First of all, record the analyzed domain
 - Record the VirusTotal URL of the "Relations" Tab for the analyzed Domain
 
