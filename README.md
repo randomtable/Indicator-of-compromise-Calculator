@@ -1,2 +1,1 @@
-# Indicator-of-compromise-Calculator
-A simple Excel file to report an Indicator of Compromise
+# Un metodo semplice per trovare possibili indicatori di compromissione su Domini esterni
