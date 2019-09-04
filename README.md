@@ -1,1 +1,5 @@
-# Un metodo semplice per trovare possibili indicatori di compromissione su Domini esterni
+# A simple Excel File for calculate Indicators of compromise
+
+### Method used for calculation
+
+- 
