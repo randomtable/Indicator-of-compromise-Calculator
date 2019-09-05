@@ -1,4 +1,8 @@
-# A simple Excel File for calculate Indicators of compromise
+# A simple Excel File to calculate Indicators of compromise
+
+Used Platforms:
+- VirusTotal
+- Reverse.it
 
 ### Method used for manual calculation
 - First of all, record the analyzed domain
