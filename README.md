@@ -2,7 +2,7 @@
 
 Used Platforms:
 - VirusTotal
-- Reverse.it
+- Reverse.it (needs an account)
 
 ### Method used for manual calculation
 - First of all, record the analyzed domain
