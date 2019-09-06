@@ -1,0 +1,9 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\bin\Release\AlienSeeker.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\bin\Release\AlienSeeker.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\bin\Release\AlienSeeker.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\obj\x86\Release\WindowsApplication1.Form1.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\obj\x86\Release\WindowsApplication1.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\obj\x86\Release\AlienSeeker.vbproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\obj\x86\Release\AlienSeeker.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\obj\x86\Release\AlienSeeker.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\AlienSeeker\AlienSeeker\obj\x86\Release\AlienSeeker.pdb
