@@ -221,3 +221,7 @@ Potendo operare all'interno della rete, è possibile effettuare degli interventi
 Questo Processo, per quanto semplice possa risultare, permette di raccogliere le evidenze e gli indicatori necessari per analizzare le proprie reti e i propri sistemi in qualunque tipo di situazione e in maniera del tutto trasparente e gratuita (escludendo le ore/uomo).
 
 Questo è solo l'inizio di un percorso per portare una semplificazione sempre maggiore a fronte di un mondo sempre più complesso e connesso.
+
+E' bene integrare tali procedure a Penetration Tests e Red Team Operations.
+
+E' necessario, inoltre, implementare una cultura della sicurezza che possa considerare la stessa come un investimento e non solo come un costo.
