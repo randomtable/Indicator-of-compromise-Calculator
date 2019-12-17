@@ -50,9 +50,9 @@ Avendo a disposizione degli Indicatori specifici, anche nel caso in cui non sia 
 
 # Non è disponibile un sample e si hanno evidenze di movimenti sospetti nella rete
 
-Nel caso in cui non fosse disponibile un sample, possiamo trovarci in due situazioni distinte:
+Nel caso in cui non fosse disponibile un sample, ma fossero disponibili evidenze di movimenti sospetti (ad esempio, una mail di spam il cui mittente è un indirizzo legittimo), possiamo trovarci in due situazioni distinte:
 
-- Non si ha visibilità della rete:
+### Non si ha visibilità della rete:
 
 Nel caso in cui si effettui un'analisi dall'esterno, cercare sulla piattaforma "threatcrowd" (https://www.threatcrowd.org/) il dominio in analisi (ad esempio "google.com")
 
@@ -62,4 +62,18 @@ Prendere in considerazione solo i Domini e gli Indirizzi IP.
 
 Per ogni risultato, copiare il risultato e incollarlo sulla barra di ricerca della piattaforma VirusTotal.
 
-- Si effettua un'analisi all'interno della rete.
+Sulla piattaforma VirusTotal, cliccare su "Relations" e verificare che esistano "Communicating Files".
+
+Nel caso in cui esistano, per ogni file, si segue la seguente procedura:
+
+- Cliccare sul file per aprirne i dettagli.
+
+- Cliccare su "Relations".
+
+- Espandere tutti i "Contacted IPs" e salvarli.
+
+- Espandere tutti i "Contacted Domains" e salvarli.
+
+- Cliccare su "Behavior", 
+
+### Si effettua un'analisi all'interno della rete.
