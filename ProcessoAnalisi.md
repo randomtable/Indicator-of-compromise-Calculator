@@ -46,6 +46,14 @@ Dalle informazioni raccolte dalla scansione di "Any.run", si può inoltre cercar
 
 Anche se le piattaforme sopracitate richiedono registrazione, il Processo non ha costi aggiuntivi (escludendo ovviamente le ore/uomo).
 
+Avendo a disposizione degli Indicatori specifici, anche nel caso in cui non sia visibile la rete dell'Organizzazione in analisi, si possono inviare tali Indicatori al Responsabile IT per permettere al personale di implementare delle misure di controllo specifiche.
+
 # Non è disponibile un sample e si hanno evidenze di movimenti sospetti nella rete
 
-Nel caso in cui non fosse disponibile un sample, 
+Nel caso in cui non fosse disponibile un sample, possiamo trovarci in due situazioni distinte:
+
+- Non si ha visibilità della rete.
+
+Nel caso in cui si effettui un'analisi dall'esterno, 
+
+- Si effettua un'analisi all'interno della rete.
