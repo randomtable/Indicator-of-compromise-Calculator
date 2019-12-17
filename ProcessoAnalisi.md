@@ -52,8 +52,14 @@ Avendo a disposizione degli Indicatori specifici, anche nel caso in cui non sia 
 
 Nel caso in cui non fosse disponibile un sample, possiamo trovarci in due situazioni distinte:
 
-- Non si ha visibilità della rete.
+- Non si ha visibilità della rete:
 
-Nel caso in cui si effettui un'analisi dall'esterno, 
+Nel caso in cui si effettui un'analisi dall'esterno, cercare sulla piattaforma "threatcrowd" (https://www.threatcrowd.org/) il dominio in analisi (ad esempio "google.com")
+
+Una volta visualizzati i risultati, cliccare sulla seconda icona in alto a sinistra per visualizzare i risultati in formato tabellare.
+
+Prendere in considerazione solo i Domini e gli Indirizzi IP.
+
+Per ogni risultato, copiare il risultato e incollarlo sulla barra di ricerca della piattaforma VirusTotal.
 
 - Si effettua un'analisi all'interno della rete.
