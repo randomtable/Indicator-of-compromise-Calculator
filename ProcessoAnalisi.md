@@ -88,6 +88,6 @@ Questo permette di avvertire il personale dell'Organizzazione, trasmettendo tutt
 
 Il Responsabile Tecnico dovrà provvedere a sua volta ad implementare i controlli specifici per gli Indicatori.
 
-
+E' consigliabile, da parte del Responsabile Tecnico interno all'Organizzazione, l'invio all'analista (se ovviamente è possibile)
 
 ### Si effettua un'analisi all'interno della rete.
