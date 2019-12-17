@@ -84,6 +84,10 @@ Una volta raccolti gli Indicatori, caricare il risultato copiato in precedenza s
 
 Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre dalla stessa piattaforma di AlienVault per lanciare una scansione rapida su tutti gli EndPoint partendo dal "pulse" appena creato (il quale è appunto una raccolta di Indicatori, raccolti sotto un unico "oggetto" chiamato "pulse", per eseguire una scansione specifica di una minaccia).
 
-Questo permette di avvertire il personale dell'Organizzazione, trasmettendo tutta l'analisi 
+Questo permette di avvertire il personale dell'Organizzazione, trasmettendo tutta l'analisi al Responsabile Tecnico.
+
+Il Responsabile Tecnico dovrà provvedere a sua volta ad implementare i controlli specifici per gli Indicatori.
+
+
 
 ### Si effettua un'analisi all'interno della rete.
