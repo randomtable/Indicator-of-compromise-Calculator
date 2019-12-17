@@ -218,3 +218,6 @@ Potendo operare all'interno della rete, è possibile effettuare degli interventi
 
 # Considerazioni finali
 
+Questo Processo, per quanto semplice possa risultare, permette di raccogliere le evidenze e gli indicatori necessari per analizzare le proprie reti e i propri sistemi in qualunque tipo di situazione e in maniera del tutto trasparente e gratuita (escludendo le ore/uomo).
+
+Questo è solo l'inizio di un percorso per portare una semplificazione sempre maggiore a fronte di un mondo sempre più complesso e connesso.
