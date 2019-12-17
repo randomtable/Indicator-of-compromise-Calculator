@@ -96,3 +96,38 @@ Nel caso in cui si possa effettuare un'analisi anche all'interno della rete, pro
 
 Ciò permette di mappare i server e i client interni e quali relazioni hanno con l'esterno.
 
+Si può a questo punto effettuare la verifica dei log, in base ad una lista di indicatori comuni o seguendo le procedure già implementate nell'organizzazione. (un esempio di indicatori comuni può essere questo, sempre dalla piattaforma "AlienVault OTX": https://otx.alienvault.com/pulse/5df899489e018150c375646e)
+
+Una volta raccolte tutte le informazioni relative alla rete interna e alla rete esterna (in caso di hosting esterni), seguire la seguente procedura:
+
+Cercare sulla piattaforma "threatcrowd" (https://www.threatcrowd.org/) gli indirizzi IP, i Domini e relativi Sottodomini relativi all'Organizzazione in analisi.
+
+Una volta visualizzati i risultati, cliccare sulla seconda icona in alto a sinistra per visualizzare i risultati in formato tabellare.
+
+Prendere in considerazione solo i Domini e gli Indirizzi IP.
+
+Per ogni risultato, copiare il risultato e incollarlo sulla barra di ricerca della piattaforma VirusTotal.
+
+Sulla piattaforma VirusTotal, cliccare su "Relations" e verificare che esistano "Communicating Files".
+
+Nel caso in cui esistano, per ogni file, si segue la seguente procedura:
+
+- Cliccare sul file per aprirne i dettagli.
+
+- Cliccare su "Relations".
+
+- Espandere tutti i "Contacted IPs" e salvarli.
+
+- Espandere tutti i "Contacted Domains" e salvarli.
+
+- Cliccare su "Behavior".
+
+- Salvare il risultato dalla sezione "File System Actions" fino a fine pagina.
+
+Effettuata questa operazione per ogni file, passare al prossimo risultato evidenziato dalla piattaforma ThreatCrowd.
+
+Una volta raccolti gli Indicatori, caricare il risultato copiato in precedenza sulla piattaforma "OTX" di AlienVault (https://otx.alienvault.com/pulse/create/new).
+
+Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre dalla stessa piattaforma di AlienVault per lanciare una scansione rapida su tutti gli EndPoint partendo dal "pulse" appena creato (il quale è appunto una raccolta di Indicatori, raccolti sotto un unico "oggetto" chiamato "pulse", per eseguire una scansione specifica di una minaccia).
+
+Potendo operare all'interno della rete, è possibile effettuare degli interventi specifici sugli asset, concordandoli con il Responsabile Tecnico.
