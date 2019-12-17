@@ -132,3 +132,89 @@ Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre da
 
 Potendo operare all'interno della rete, è possibile effettuare degli interventi specifici sugli asset, concordandoli con il Responsabile Tecnico.
 
+# Non è disponibile un sample e non si hanno evidenze di movimenti sospetti nella rete
+
+Nel caso in cui non fosse disponibile un sample e non ci sia nessuna evidenza di movimenti sospetti nella rete (ad esempio un controllo di routine), possiamo trovarci in due situazioni distinte:
+
+### Non si ha visibilità della rete:
+
+Nel caso in cui si effettui un'analisi dall'esterno, cercare sulla piattaforma "threatcrowd" (https://www.threatcrowd.org/) il dominio in analisi (ad esempio "google.com")
+
+Una volta visualizzati i risultati, cliccare sulla seconda icona in alto a sinistra per visualizzare i risultati in formato tabellare.
+
+Prendere in considerazione solo i Domini e gli Indirizzi IP.
+
+Per ogni risultato, copiare il risultato e incollarlo sulla barra di ricerca della piattaforma VirusTotal.
+
+Sulla piattaforma VirusTotal, cliccare su "Relations" e verificare che esistano "Communicating Files".
+
+Nel caso in cui esistano, prendere in considerazione solo i file i quali hanno come data il mese e l'anno corrente e, per ogni file, si segue la seguente procedura:
+
+- Cliccare sul file per aprirne i dettagli.
+
+- Cliccare su "Relations".
+
+- Espandere tutti i "Contacted IPs" e salvarli.
+
+- Espandere tutti i "Contacted Domains" e salvarli.
+
+- Cliccare su "Behavior".
+
+- Salvare il risultato dalla sezione "File System Actions" fino a fine pagina.
+
+Effettuata questa operazione per ogni file preso in considerazione, passare al prossimo risultato evidenziato dalla piattaforma ThreatCrowd.
+
+Una volta raccolti gli Indicatori, caricare il risultato copiato in precedenza sulla piattaforma "OTX" di AlienVault (https://otx.alienvault.com/pulse/create/new).
+
+Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre dalla stessa piattaforma di AlienVault per lanciare una scansione rapida su tutti gli EndPoint partendo dal "pulse" appena creato (il quale è appunto una raccolta di Indicatori, raccolti sotto un unico "oggetto" chiamato "pulse", per eseguire una scansione specifica di una minaccia).
+
+Questo permette di avvertire il personale dell'Organizzazione, trasmettendo tutta l'analisi al Responsabile Tecnico.
+
+Il Responsabile Tecnico dovrà provvedere a sua volta ad implementare i controlli specifici per gli Indicatori.
+
+E' consigliabile, da parte del Responsabile Tecnico interno all'Organizzazione, l'invio all'analista (se ovviamente è possibile) di dati aggiuntivi atti ad approfondire meglio l'analisi (come ad esempio l'indirizzo IP pubblico della rete interna) in quanto molte Organizzazioni hanno i propri applicativi web su server esterni o hosting provider.
+
+### Si effettua un'analisi all'interno della rete.
+
+Nel caso in cui si possa effettuare un'analisi anche all'interno della rete, procedere con l'individuazione degli asset e definire i punti di ingresso nella rete.
+
+Ciò permette di mappare i server e i client interni e quali relazioni hanno con l'esterno.
+
+Si può a questo punto effettuare la verifica dei log, in base ad una lista di indicatori comuni o seguendo le procedure già implementate nell'organizzazione. (un esempio di indicatori comuni può essere questo, sempre dalla piattaforma "AlienVault OTX": https://otx.alienvault.com/pulse/5df899489e018150c375646e)
+
+Una volta raccolte tutte le informazioni relative alla rete interna e alla rete esterna (in caso di hosting esterni), seguire la seguente procedura:
+
+Cercare sulla piattaforma "threatcrowd" (https://www.threatcrowd.org/) gli indirizzi IP, i Domini e relativi Sottodomini relativi all'Organizzazione in analisi.
+
+Una volta visualizzati i risultati, cliccare sulla seconda icona in alto a sinistra per visualizzare i risultati in formato tabellare.
+
+Prendere in considerazione solo i Domini e gli Indirizzi IP.
+
+Per ogni risultato, copiare il risultato e incollarlo sulla barra di ricerca della piattaforma VirusTotal.
+
+Sulla piattaforma VirusTotal, cliccare su "Relations" e verificare che esistano "Communicating Files".
+
+Nel caso in cui esistano, prendere in considerazione solo i file i quali hanno come data il mese e l'anno corrente e, per ogni file, si segue la seguente procedura:
+
+- Cliccare sul file per aprirne i dettagli.
+
+- Cliccare su "Relations".
+
+- Espandere tutti i "Contacted IPs" e salvarli.
+
+- Espandere tutti i "Contacted Domains" e salvarli.
+
+- Cliccare su "Behavior".
+
+- Salvare il risultato dalla sezione "File System Actions" fino a fine pagina.
+
+Effettuata questa operazione per ogni file preso in considerazione, passare al prossimo risultato evidenziato dalla piattaforma ThreatCrowd.
+
+Una volta raccolti gli Indicatori, caricare il risultato copiato in precedenza sulla piattaforma "OTX" di AlienVault (https://otx.alienvault.com/pulse/create/new).
+
+Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre dalla stessa piattaforma di AlienVault per lanciare una scansione rapida su tutti gli EndPoint partendo dal "pulse" appena creato (il quale è appunto una raccolta di Indicatori, raccolti sotto un unico "oggetto" chiamato "pulse", per eseguire una scansione specifica di una minaccia).
+
+Potendo operare all'interno della rete, è possibile effettuare degli interventi specifici sugli asset, concordandoli con il Responsabile Tecnico.
+
+# Considerazioni finali
+
