@@ -44,3 +44,5 @@ Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre da
 
 Dalle informazioni raccolte dalla scansione di "Any.run", si può inoltre cercare una soluzione di sicurezza specifica che possa debellare la minaccia.
 
+Anche se le piattaforme sopracitate richiedono registrazione, il Processo non ha costi aggiuntivi (escludendo ovviamente le ore/uomo).
+
