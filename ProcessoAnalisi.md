@@ -88,6 +88,11 @@ Questo permette di avvertire il personale dell'Organizzazione, trasmettendo tutt
 
 Il Responsabile Tecnico dovrà provvedere a sua volta ad implementare i controlli specifici per gli Indicatori.
 
-E' consigliabile, da parte del Responsabile Tecnico interno all'Organizzazione, l'invio all'analista (se ovviamente è possibile)
+E' consigliabile, da parte del Responsabile Tecnico interno all'Organizzazione, l'invio all'analista (se ovviamente è possibile) di dati aggiuntivi atti ad approfondire meglio l'analisi (come ad esempio l'indirizzo IP pubblico della rete interna) in quanto molte Organizzazioni hanno i propri applicativi web su server esterni o hosting provider.
 
 ### Si effettua un'analisi all'interno della rete.
+
+Nel caso in cui si possa effettuare un'analisi anche all'interno della rete, procedere con l'individuazione degli asset e definire i punti di ingresso nella rete.
+
+Ciò permette di mappare i server e i client interni e quali relazioni hanno con l'esterno.
+
