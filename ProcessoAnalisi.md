@@ -10,11 +10,31 @@ E' bene quindi tenere presente che non esiste una "linea guida" che vada bene pe
 
 Utilizzare gli strumenti messi a disposizione da GitHub per segnalare migliorie, eventuali errori e suggerimenti.
 
-Il Processo si dirama in quattro situazioni distinte, che possono capitare nell'analisi:
+Il Processo si dirama in tre situazioni distinte, che possono capitare nell'analisi:
 
 - E' disponibile un sample.
 
 - Non è disponibile un sample e si hanno evidenze di movimenti sospetti nella rete (ad esempio una mail di spam con mittente un account aziendale).
 
 - Non è disponibile un sample e non si hanno evidenze di movimenti sospetti nella rete (ad esempio, nel caso di un controllo di routine).
+
+Ogniuna di queste tre situazioni ha a sua volta due sotto-categorie:
+
+- Se la rete non è visibile (ad esempio se l'analisi viene effettuata dall'esterno).
+
+- Se la rete è visibile (si può operare sulla rete analizzata).
+
+Di seguito si riporta il dettaglio di ogni situazione.
+
+# E' disponibile un sample
+
+Nel caso sia disponibile un sample ed abbiamo quindi una mail/file/altra evidenza di un oggetto malevolo, per prima cosa registrare l'evento (data-ora) e le informazioni sulla macchina (Indirizzo IP, Dominio, Indirizzo MAC e altri elementi distintivi).
+
+Eseguire l'analisi del sample sulla piattaforma "any.run" (https://app.any.run/#register)
+
+Una volta lanciata l'analisi sulla piattaforma, attendere che il malware venga detonato, e in caso aprirlo manualmente (la piattaforma permette di creare una sandbox, è possibile operare sui file malevoli in totale sicurezza).
+
+Una volta analizzato il malware (o altra minaccia, potrebbe essere un link malevolo), nella scheda dei risultati, sulla destra, comparirà il pulsante "IOC".
+
+Cliccare sul pulsante e copiare il contenuto negli appunti.
 
