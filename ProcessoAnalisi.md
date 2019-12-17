@@ -74,6 +74,16 @@ Nel caso in cui esistano, per ogni file, si segue la seguente procedura:
 
 - Espandere tutti i "Contacted Domains" e salvarli.
 
-- Cliccare su "Behavior", 
+- Cliccare su "Behavior".
+
+- Salvare il risultato dalla sezione "File System Actions" fino a fine pagina.
+
+Effettuata questa operazione per ogni file, passare al prossimo risultato evidenziato dalla piattaforma ThreatCrowd.
+
+Una volta raccolti gli Indicatori, caricare il risultato copiato in precedenza sulla piattaforma "OTX" di AlienVault (https://otx.alienvault.com/pulse/create/new).
+
+Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre dalla stessa piattaforma di AlienVault per lanciare una scansione rapida su tutti gli EndPoint partendo dal "pulse" appena creato (il quale è appunto una raccolta di Indicatori, raccolti sotto un unico "oggetto" chiamato "pulse", per eseguire una scansione specifica di una minaccia).
+
+Questo permette di avvertire il personale dell'Organizzazione, trasmettendo tutta l'analisi 
 
 ### Si effettua un'analisi all'interno della rete.
