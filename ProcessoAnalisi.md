@@ -18,7 +18,7 @@ Il Processo si dirama in tre situazioni distinte, che possono capitare nell'anal
 
 - Non è disponibile un sample e non si hanno evidenze di movimenti sospetti nella rete (ad esempio, nel caso di un controllo di routine).
 
-Ogniuna di queste tre situazioni ha a sua volta due sotto-categorie:
+Ognuna di queste tre situazioni ha a sua volta due sotto-categorie:
 
 - Se la rete non è visibile (ad esempio se l'analisi viene effettuata dall'esterno).
 
