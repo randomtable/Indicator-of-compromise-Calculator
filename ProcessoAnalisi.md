@@ -46,3 +46,6 @@ Dalle informazioni raccolte dalla scansione di "Any.run", si può inoltre cercar
 
 Anche se le piattaforme sopracitate richiedono registrazione, il Processo non ha costi aggiuntivi (escludendo ovviamente le ore/uomo).
 
+# Non è disponibile un sample e si hanno evidenze di movimenti sospetti nella rete
+
+Nel caso in cui non fosse disponibile un sample, 
