@@ -38,3 +38,9 @@ Una volta analizzato il malware (o altra minaccia, potrebbe essere un link malev
 
 Cliccare sul pulsante e copiare il contenuto negli appunti.
 
+Una volta raccolti gli Indicatori, caricare il risultato copiato in precedenza sulla piattaforma "OTX" di AlienVault (https://otx.alienvault.com/pulse/create/new).
+
+Caricati gli Indicatori su AlienVault, utilizzare "EndPoint Security", sempre dalla stessa piattaforma di AlienVault per lanciare una scansione rapida su tutti gli EndPoint partendo dal "pulse" appena creato (il quale è appunto una raccolta di Indicatori, raccolti sotto un unico "oggetto" chiamato "pulse", per eseguire una scansione specifica di una minaccia).
+
+Dalle informazioni raccolte dalla scansione di "Any.run", si può inoltre cercare una soluzione di sicurezza specifica che possa debellare la minaccia.
+
